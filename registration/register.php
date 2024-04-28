@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             );
 
             if ($registration_result) {
-                header("Location: /registration_success.php");
+                header("Location: /");
                 exit;
             } else {
                 $error_messages['general'] = 'Registration failed';

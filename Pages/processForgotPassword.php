@@ -23,6 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 
-header("Location: reset_password_confirmation.php");
+header("Location: /");
 exit;
 ?>

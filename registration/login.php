@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             storeSession($pdo, $user_id);
 
-            header("Location: /dashboard.php");
+            header("Location: /");
             exit;
         } else {
             $message = 'Email or password invalid';
